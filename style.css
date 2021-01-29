@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+.zero{
+    height: 100vh;
+    width:100vw;
+    
+    
+}
+
+.zero .hero{
+    height: 100vh;
+    width:100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), #000) , url("hero.jpg") center center/cover;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+    
+}
+
+.zero .hero .content{
+    
+    position:relative;
+    right: 75px;
+   
+}
+
+.zero .hero .content a{
+    
+  
+    position: relative;
+    top: 50px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration:none;
+    color:white;   
+
+}
+
+.btn{
+    display: inline-flexbox;
+    padding: 10px 30px;
+    font-weight: 900;
+    
+    }
+
+.btnghost{
+    border: 1px solid blue;
+    color:white;
+    height:6vh;
+    width:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 68rem;
+    top:10rem;
+    
+}
+
+.btnfull{
+    background-color: #e67e22;
+    color:white;
+    border: 1px solid blue;
+    height: 6vh;
+    width:15vh;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   right: 69rem;
+   top:10rem;
+}
+    
+  
+   
+
+
+.btnghost:hover{
+
+    background-color: #cf6d17;
+    border:none; 
+    transition: background-color 0.2s;
+
+   
+}
+
+.btnfull:hover{
+    background-color: #2d2e2f2f;
+    border:none;
+
+}
+
+.zero .hero .content img{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    bottom:270px;
+    left:80px;
+}
+
+
+.zero .hero .content nav ul{
+    display: flex;
+   
+    position: relative;
+    left: 700px;
+    bottom:200px;
+}
+
+
+.zero .hero .content nav ul li{
+    
+  display: flex;
+    padding: 10px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    text-transform:uppercase;
+    list-style:none;
+    
+}
+
+
+ h1{
+    color:rgba(192, 192, 192, 0.747);
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+ 
+    position: relative;
+    right: 500px;
+    top:90px;
+   
+}
+
+
+.feuaters h2{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(192, 192, 192, 0.925);
+    
+      display: flex;
+      align-items: center;
+     justify-content: center;
+  
+    
+}
+
+.feuaters .heading{
+   
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.feuaters p{
+    
+     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: justify;
+
+}
+
+.feuaters .omni{
+    width: 50vw;
+    
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+.data{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feuaters .data .box1{
+    height: 50vh;
+    width:30vw;
+    text-align: justify;
+    margin: 40px;
+
+}
+
+.feuaters .data .box2{
+
+    height: 50vh;
+    width:30vw;
+    text-align: justify;
+    
+}
+
+.feuaters .data .box3{
+
+    height: 50vh;
+    width:30vw;
+    text-align: justify;
+  
+}
+
+.three{
+    height: 60vh;
+    width:100vw;
+    border:2px solid green;
+    margin:0px;
+    padding: 0px;
+    
+   
+
+} 
+
+.meals{
+    height: 100vh;
+    width:100vw;
+    border:5px solid red;
+    
+    
+}
+
+.meals img{
+    height: 35vh;
+    width:25vw;
+    margin: -2px;
+    transition: all 1s ease; 
+    
+}
+
+.meals img:hover{
+    transform: scale(1.5);
+
+}
+.ashish{
+    background-color: black;
+    color:white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.abhishekh {
+   display: inline-block;
+}
